@@ -1,0 +1,10 @@
+.wheel-spin {
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.button-spin {
+  margin-top: auto;
+  margin-bottom: auto;
+}
