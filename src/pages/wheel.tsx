@@ -49,7 +49,6 @@ const LuckyWheel = () => {
   }
   
   useEffect(() => {
-    console.log(data)
     axios({
       method: 'get',
       baseURL: 'http://localhost:8000/api/zalo-mini-app/show-prize',
@@ -59,7 +58,6 @@ const LuckyWheel = () => {
     })
       .then(function (response) {
         setDataWheel(response['data']['data'])
-        console.log(typeof(data))
       }).catch(function (error){
         console.log(error);
       })
