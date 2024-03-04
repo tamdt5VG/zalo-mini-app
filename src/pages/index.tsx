@@ -119,7 +119,7 @@ export const HomePage: React.FunctionComponent = () => {
     console.log(file);
     // console.log(base64Img);
     axios
-      .post("http://localhost:8000/api/zalo-mini-app/push", formData, {
+      .post("http://localhost:8000/api/zalo-mini-app/push-info", formData, {
         headers: {
           "Content-Type": "multipart/form-data",
         },
